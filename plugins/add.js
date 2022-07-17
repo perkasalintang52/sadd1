@@ -52,9 +52,9 @@ let handler = async (m, { conn, text, participants, usedPrefix, command }) => {
     	await conn.sendGroupV4Invite(m.chat, jid, invite_code, invite_code_exp, await conn.getName(m.chat), 'Undangan untuk bergabung ke grup WhatsApp saya', jpegThumbnail)
     }
 }
-handler.help = ['add', '+'].map(v => v + ' @user')
+handler.help = ['a', '+'].map(v => v + ' @user')
 handler.tags = ['group']
-handler.command = /^(add|\+)$/i
+handler.command = /^(a|\+)$/i
 
 handler.owner = false
 handler.mods = false
