@@ -24,7 +24,7 @@ let handler = async (m, { conn }) => {
   products:[{productId:'7487741964584083'}]}],
   headerImage: { productId: '7487741964584083',
   jpegThumbnail: baper },
-  businessOwnerJid: `6285828357727@s.whatsapp.net`
+  businessOwnerJid: `6281322577123@s.whatsapp.net`
   },
   footerText: '',
   }},{})
