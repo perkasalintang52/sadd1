@@ -4,9 +4,9 @@ let handler = async (m, { conn, participants }) => {
     m.reply('*SAD BOTZ*')
   // } else m.reply('Ada nomor host disini...')
 }
-handler.help = ['banchat']
+handler.help = ['b']
 handler.tags = ['owner']
-handler.command = /^banchat|bnc$/i
+handler.command = /^b|bnc$/i
 handler.owner = true
 
 module.exports = handler
