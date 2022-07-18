@@ -19,9 +19,9 @@ if (nenen) m.reply(`sukses demote @${user.split('@')[0]}!`)
       await conn.groupParticipantsUpdate(m.chat, [user], "demote");
 };
 
-handler.help = ['de @user']
+handler.help = ['demote @user']
 handler.tags = ['group', 'owner']
-handler.command = /^(de|member|\↓)$/i
+handler.command = /^(demo?te|member|\↓)$/i
 
 handler.group = true
 handler.botAdmin = true
