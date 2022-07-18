@@ -19,9 +19,9 @@ if (nenen) m.reply(`sukses promote @${user.split('@')[0]}!`);
       await conn.groupParticipantsUpdate(m.chat, [user], "promote");
 };
 
-handler.help = ['pr @user']
+handler.help = ['promote @user']
 handler.tags = ['group', 'owner']
-handler.command = /^(pr|admin|\^)$/i
+handler.command = /^(promo?te|admin|\^)$/i
 
 handler.group = true
 handler.botAdmin = true
